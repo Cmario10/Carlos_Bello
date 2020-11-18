@@ -1,0 +1,414 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+/*----Header--*/
+.ea{
+	width: 100%;
+	height: 30px;
+	background-color: #212121;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0 32px 0 0;
+	font-family: arial;
+	background-attachment: fixed;
+	line-height: 35px;
+	color: #CCC;
+}
+
+.logo{
+	background-image: url(img/EAlogo2.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.logo:hover{
+	background-image: url(img/EAlogo.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+.iniciar{
+	background-image: url(img/usuario.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.iniciar:hover{
+	background-image: url(img/usuario2.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+
+}
+.help{
+	background-image: url(img/pregunta.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.help:hover{
+	background-image: url(img/pregunta2.png);
+	background-size: cover;
+	align-items: center;
+	text-align: center;
+	width: 20px;
+	height: 20px;
+	justify-content: center;
+	margin-left: 20px;
+	margin-top: 5px;
+
+}
+/*-------Menu-----*/
+.menu2{
+	background-image: url(img/FIFA21logo.svg);
+	background-size: 200px 60px;
+	width: 200px;
+	height: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.menu{
+	width: 200px;
+	height: 60px;
+	text-transform: uppercase;
+}
+.menu:hover{
+	background-color:#9844fb;
+	color:#43ecde; 
+}
+nav 
+{
+    height: 60px;
+    width:  100%;
+    background: #000;
+    position: right;
+}
+nav ul 
+{
+	float:right;
+    padding: 0;
+    margin: 0 auto; 
+}
+nav a 
+{
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    line-height: 55px;
+	width:200px;
+	height: 60px;
+	font-family:'Open Sans', sans-serif;
+}
+.img3 
+{
+	width:250px;
+	height:60px;
+	position:right;
+	margin-left:38px;
+}
+#header 
+{
+	margin:auto;
+	width:100%;
+	background:#201e3b;
+    font-family:'Open Sans', sans-serif;
+}	
+ul, ol 
+{
+	list-style:none;
+}		
+.nav > li
+{
+	float:left;	
+}		
+.nav li a 
+{
+	background-color:#000;
+	text-decoration:none;
+	display:block;
+}
+.nav a 
+{
+	background-color:#007;
+}		
+.nav li a:hover
+{
+    background-color: #000;
+    color: #34d0ce;
+}			
+.nav li ul 
+{
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+.nav li:hover > ul 
+{
+	display:block;
+}		
+.nav li ul li 
+{
+	position:relative;
+}	
+.nav li ul li ul 
+{
+	right:-140px;
+	top:0px;
+}
+.btn-primary
+{
+	background-color: #8a4fff;
+	color: #ffffff;
+	border-radius: 0px;
+	border: 0;
+	font-size: 14px;
+	height: 35px;
+	width: 150px;
+	font-family: 'open Sans', sans-serif,
+}
+/*------play-xbox----*/
+.psxb{
+	width: 100%;
+	height: 700px;
+    background-image: url(img/fifa.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.psxb1{
+	width:37.5%;
+}
+.psxb2{
+	width: 700px;
+	height: 600px;
+	font-family: 'Kanit', sans-serif;
+	font-style: italic;
+	font-size: 30px;
+	color:#FFF;
+	margin-left: 10px;
+}
+.psxb4{
+	font-family: 'ubuntu', sans-serif;
+	font-size: 20px;
+	color:#FFF;
+}
+.img2{
+	margin-top: 100px;
+	margin-left: 10px;
+}
+
+.play{
+	width: 50%;
+	height: 400px;
+}
+.img4{
+	margin-top: 20px;
+	width: 200px;
+	height: 140px;
+	margin-left: 120px;
+}
+.img5{
+	margin-left: 160px;
+	width: 130px;
+	height: 95px;
+}
+.btn-secondary
+{
+	background-color: #8337ff;
+	color: #FFF;
+	border-radius: 9px;
+	border: 0;
+	font-size: 20px;
+	height: 70px;
+	width:250px;
+	font-family: 'kanit', sans-serif;
+}
+/*----uefa-----*/
+.uefa{
+	width: 100%;
+	height: 500px;
+	background-image: url(img/uefa.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+}
+.uefa2{
+	margin-top: 70px;
+}
+.uefa3{
+	width: 900px;
+	height: 500px;
+	font-family: 'Kanit', sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	color:#FFF;
+	margin-top: 30px;
+}
+.uefa3{
+	width: 900px;
+	height: 500px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 30px;
+	color:#FFF;
+}
+/*---volta---*/
+body {
+	background-image:url(img/volta.jpg);
+	color: #000;
+	font-family: 'kanit', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: top;
+	width: 100%
+}
+
+.voltafut {
+
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.voltafut2 {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.voltaimg {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 350px;
+}
+
+.voltafut3 {
+	width: 50%;
+}
+
+.voltafut4 {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 28px;
+}
+
+.voltafut5 {
+	font-family: 'kernit', sans-serif;
+	line-height: 30px;
+	color: #000;
+}
+
+/* --- --- CAROUSEL --- --- */
+.volta {
+	position: relative;
+}
+
+.prev,
+.next {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #000;
+	opacity: 20%;
+}
+
+.prev:hover,
+.next:hover {
+	opacity: 100%;
+}
+
+.prev {
+	left: -30px;
+}
+
+.next {
+	right: -30px;
+}
+
+.voltapaises {
+	overflow: hidden;
+}
+
+.pais {
+	text-align: center;
+}
+
+.voltita .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #000;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.voltita .glider-dot:hover {
+	opacity: .5;
+}
+
+.voltita .glider-dot.active {
+	opacity: 1;
+}
+.vinc1{
+	color: #000;
+	text-decoration: none;
+}
+.vinc1:hover{
+	color: #00fafa;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.voltafut2{
+		flex-direction: column;
+	}
+
+	.voltafut2 > * {
+		width: 100%;
+	}
+}

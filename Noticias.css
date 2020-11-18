@@ -1,0 +1,299 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.Note{
+	width: 100%;
+	height: 100px;
+	background: #272727;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+.Note1{
+	margin-top: 100px;
+	font-family: "kenit",sans-serif;
+	font-style: italic;
+	color: #FFF;
+	font-size: 50px;
+
+}
+.noti{
+	width: 100%;
+	height: 900px;
+	background: #272727;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+.noti1{
+	width: 20%;
+	height: 700px;
+	background: #353535;
+	margin-top: 100px;
+	flex-direction: column;
+}
+.noti2{
+	width: 20%;
+	height: 700px;
+	background: #353535;
+	margin-top: 100px;
+}
+.noti3{
+	width: 20%;
+	height: 700px;
+	background: #353535;
+	margin-top: 100px;
+}
+.nota{
+	width: 100%;
+	height: 30%;
+	background-image: url(img/fifa2.jpg);
+	background-size: cover;
+}
+.nota1{
+	width: 100%;
+	height: 10%;
+	background-color: #353535;
+}
+.notfec{
+	font-family: "kenit",sans-serif;
+	margin-left: 10px;
+	font-size: 15px;
+	color: #00fafa;
+}
+.notlet{
+	font-family: "kenit",sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-style: italic;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.notlet1{
+	font-family: "kenit",sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #FFF;
+}
+.nota2{
+	width: 100%;
+	height: 10%;
+	background-color: #353535;
+}
+.nota3{
+	width: 100%;
+	height: 50%;
+	background-color: #353535;
+}
+.noto{
+	width: 100%;
+	height: 30%;
+	background-image: url(img/dual2.png);
+	background-size: cover;
+}
+.notu{
+	width: 100%;
+	height: 30%;
+	background-image: url(img/fifiti.png);
+	background-size: cover;
+}
+.buttonnot{
+	width: 300px;
+	height: 100px;
+	background: transparent;
+	border:1;
+	border-color: #FFF;
+	font-family:'Kanit', sans-serif;
+	font-size: 30px; 
+	color:#FFF;
+}
+.formulario{
+	width: 100%;
+	height: 500px;
+	background: #272727;
+	display: flex;
+}
+.form{
+	width: 25%;
+	height: 400px;
+}
+.formu{
+	width: 100%;
+	height: 50px;
+}
+.formu2{
+	margin-left: 70px;
+	width: 60%;
+	height: 300px;
+	background-image: url(img/futicons.png);
+	background-size: 300px;
+}
+.formu3{
+	width: 100%;
+	height: 50px;
+}
+.formul2{
+	width: 100%;
+	height: 10%;
+}
+.formlet{
+	font-family: "kenit",sans-serif;
+	margin-left: 10px;
+	font-style: italic;
+	color: #FFF;
+	font-size: 30px;
+}
+.formul3{
+	width: 100%;
+	height: 50%;
+}
+.formlet1{
+	font-family: "kenit",sans-serif;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #FFF;
+}
+.vinc{
+	color: #00fafa;
+	text-decoration: none;
+}
+.formus{
+	margin-left: 15px;
+	border-color: #FFF;
+	background: transparent;
+	font-size: 20px;
+    border: 1;
+    box-shadow: none;
+    color: #FFF;
+    font-family: "kenit",sans-serif;
+    outline: none;
+    padding: 0;
+    transition: transform .25s cubic-bezier(.5, .25, .015, 1);
+    width: 90%;
+    height: 70px;
+}
+.formus2{
+	margin-left: 15px;
+	border-color: #FFF;
+	background: transparent;
+	font-size: 20px;
+    border: 1;
+    box-shadow: none;
+    color: #FFF;
+    font-family: "kenit",sans-serif;
+    outline: none;
+    padding: 0;
+    transition: transform .25s cubic-bezier(.5, .25, .015, 1);
+    width: 40%;
+    height: 50px;
+}
+.formus3{
+	margin-left: 15px;
+	border-color: #FFF;
+	background: transparent;
+    width: 20px;
+    height: 20px;
+}
+.buttonnot2{
+	margin-left: 15px;
+	width: 200px;
+	height: 50px;
+	background: #00c1c1;
+	border:0;
+	border-color: #FFF;
+	font-family:'Kanit', sans-serif;
+	font-size: 15px; 
+}
+.buttonnot2:hover{
+	margin-left: 15px;
+	width: 200px;
+	height: 50px;
+	background: #00fafa;
+	border:0;
+	border-color: #FFF;
+	font-family: font-family: 'Kanit', sans-serif;
+	font-size: 15px; 
+}
+.check{
+	margin-left: 15px;
+	width: 100%;
+	height: 150px;
+	background: #272727;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+@media screen and (max-width: 800px) {
+	.Note{
+	width: 100%;
+	height: 100px;
+	background: #272727;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+ .noti{
+	width: 100%;
+	height: 100%;
+	background: #272727;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+	
+.noti1{
+	margin-left: 25px;
+	width: 90%;
+	height: 700px;
+	background: #353535;
+	margin-top: 200px;
+	flex-direction: column;
+}
+.noti2{
+	margin-left: 25px;
+	width: 90%;
+	height: 700px;
+	background: #353535;
+	margin-top: 100px;
+}
+.noti3{
+	margin-left: 25px;
+	width: 90%;
+	height: 700px;
+	background: #353535;
+	margin-top: 100px;
+}
+.formulario{
+	width: 100%;
+	height: 500px;
+	background: #272727;
+	display: none;
+}
+.form{
+	width: 100%;
+	height: 400px;
+}
+.formu{
+	width: 100%;
+	height: 50px;
+}
+.formu2{
+	margin-left: 70px;
+	width: 100%;
+	height: 300px;
+	background-image: url(img/futicons.png);
+	background-size: 300px;
+}
+.buttonnot{
+	width: 300px;
+	height: 60px;
+	background: transparent;
+	border:1;
+	border-color: #FFF;
+	font-family:'Kanit', sans-serif;
+	font-size: 30px; 
+	color:#FFF;
+}

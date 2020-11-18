@@ -1,0 +1,70 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.EAdv{
+	background-image: url(img/doblever.png);
+	background-size: cover;
+	width: 100%;
+	height:400px;
+	display: flex;
+	justify-content: center;
+}
+.EAdv1{
+ 	width:50%;
+ 	height:150px;
+ 	text-align: center;
+ 	font-family: kanit,sans-serif;
+ 	font-style: italic;
+ 	font-size: 30px;
+ 	color: #FFF;
+}
+.EAdv2{
+	margin-top: 10px;
+}
+.buttondv{
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	border:1;
+	border-radius: 5px;
+	border-color: #FFF;
+	font-family: font-family: 'Kanit', sans-serif;
+	font-size: 20px; 
+	color: #FFF;
+}
+@media screen and (max-width: 800px) {
+.EAdv{
+	background-image: url(img/doblever.png);
+	background-size: cover;
+	width: 100%;
+	height:450px;
+	display: flex;
+	justify-content: center;
+}
+.EAdv1{
+ 	width:50%;
+ 	height:150px;
+ 	text-align: center;
+ 	font-family: kanit,sans-serif;
+ 	font-style: italic;
+ 	font-size: 20px;
+ 	color: #FFF;
+}
+.EAdv2{
+	margin-top: 10px;
+}
+.buttondv{
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	border:1;
+	border-radius: 5px;
+	border-color: #FFF;
+	font-family: font-family: 'Kanit', sans-serif;
+	font-size: 20px; 
+	color: #FFF;
+}
+
+}

@@ -1,0 +1,134 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+
+/*body {
+	background-image:url(img/volta.jpg);
+	color: #000;
+	font-family: 'kanit', sans-serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: top;
+	width: 100%
+}*/
+
+.voltafut {
+	font-family: 'kanit', sans-serif;
+	max-width: 1200px;
+	width: 90%;
+	margin: auto;
+}
+
+/* --- --- CONTENEDOR PRINCIPAL --- --- */
+
+.voltafut2 {
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.voltaimg {
+	vertical-align: top;
+	margin-right: 20px;
+	width: 50%;
+	max-width: 350px;
+}
+
+.voltafut3 {
+	width: 50%;
+}
+
+.voltafut4 {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 28px;
+}
+
+.voltafut5 {
+	font-family: 'kernit', sans-serif;
+	line-height: 30px;
+	color: #000;
+}
+
+/* --- --- CAROUSEL --- --- */
+.volta {
+	position: relative;
+}
+
+.prev,
+.next {
+	position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #000;
+	opacity: 20%;
+}
+
+.prev:hover,
+.next:hover {
+	opacity: 100%;
+}
+
+.prev {
+	left: -30px;
+}
+
+.next {
+	right: -30px;
+}
+
+.voltapaises {
+	overflow: hidden;
+}
+
+.pais {
+	text-align: center;
+}
+
+.voltita .glider-dot {
+	display: block;
+	width: 30px;
+	height: 4px;
+	background: #000;
+	opacity: .2;
+	border-radius: 0;
+}
+
+.voltita .glider-dot:hover {
+	opacity: .5;
+}
+
+.voltita .glider-dot.active {
+	opacity: 1;
+}
+.vinc1{
+	color: #000;
+	text-decoration: none;
+}
+.vinc1:hover{
+	color: #00fafa;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding: 40px 0;
+	}
+
+	.voltafut2{
+		flex-direction: column;
+	}
+
+	.voltafut2 > * {
+		width: 100%;
+	}
+}

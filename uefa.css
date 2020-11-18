@@ -1,0 +1,80 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+.uefa{
+	width: 100%;
+	height: 500px;
+	background-image: url(img/uefa.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: flex-end;
+}
+.uefa2{
+	margin-top: 70px;
+}
+.uefa3{
+	width: 900px;
+	height: 500px;
+	font-family: 'Kanit', sans-serif;
+	font-style: italic;
+	font-size: 40px;
+	color:#FFF;
+	margin-top: 30px;
+}
+.uefa3{
+	width: 900px;
+	height: 500px;
+	font-family: 'ubuntu', sans-serif;
+	font-size: 30px;
+	color:#FFF;
+}
+@media screen and (max-width: 800px) {
+ .uefa{
+	
+	flex-direction: column-reverse;
+	overflow: hidden; 
+	background-image:url(img/uefa2.jpg);
+ }
+ .psxb1{
+ 	flex-direction: column;
+	width:15.5%;
+
+}
+.img2{
+	margin-top: 300px;
+	width: 200px;
+	height: 100px;
+	position:center;
+	margin-left:100px;
+}
+	
+.psxb2 
+{
+	align-content: center;
+	text-decoration:none;
+
+}
+.title1{
+	display: none;
+}
+.uefa4{
+	margin-top: 90px;
+	font-weight: lighter;
+	font-size: 13px;
+	margin-left: 35px;
+
+}
+.btn-secondary
+{
+	background-color: #8337ff;
+	color: #FFF;
+	border-radius: 9px;
+	border: 0;
+	font-size: 20px;
+	height: 70px;
+	width:250px;
+	font-family: 'kanit', sans-serif;
+	margin-left: 85px;
+}
